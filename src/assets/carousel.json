@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "imgPath": "/img/menu_1.png",
+    "dishName": "Margherita Pizza",
+    "dishPrice": "₱635.00"
+  },
+  {
+    "id": 2,
+    "imgPath": "/img/menu_2.png",
+    "dishName": "Pasta Carbonara",
+    "dishPrice": "₱365.00"
+  },
+  {
+    "id": 3,
+    "imgPath": "/img/menu_3.png",
+    "dishName": "Panzanella",
+    "dishPrice": "₱390.00"
+  },
+  {
+    "id": 4,
+    "imgPath": "/img/menu_4.png",
+    "dishName": "Spaghetti Alla Chitarra",
+    "dishPrice": "₱515.00"
+  }
+  
+]
