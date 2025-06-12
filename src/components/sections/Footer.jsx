@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section className='p-15'>
+        <section className='px-15 pt-5'>
             <footer class="dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">
@@ -11,20 +11,28 @@ const Footer = () => {
                                 <img src="/img/navLogo.png" class="h-15 me-3" alt="FlowBite Logo" />
                             </a>
                         </div>
-                        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                            <div>
-                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Menu</h2>
+                        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3">
+                            <div className='pe-8'>
+                                <h2 className="font-cairo font-bold text-[18px] mb-6 text-sm text-gray-900 uppercase dark:text-white">Opening Hours</h2>
                                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                                    <li class="mb-4">
-                                        <a href="https://flowbite.com/" class="hover:underline">Our Menu</a>
+                                    <li class="mb-10 flex flex-col">
+                                        <span className='mb-2 font-bold font-cairo text-[16px]'>Restaurants:</span>
+                                        <span className='font-normal font-cairo text-[14px]'>Mon – Thu</span>
+                                        <span className='font-normal font-cairo text-[14px]'>10:00am – 12:00am</span>
+                                        <span className='font-normal font-cairo text-[14px]'>Fri – Sun</span>
+                                        <span className='font-normal font-cairo text-[14px]'>10:00am – 12:45am</span>
                                     </li>
-                                    <li>
-                                        <a href="https://tailwindcss.com/" class="hover:underline">Order Now</a>
+                                    <li class="mb-4 flex flex-col">
+                                        <span className='mb-2 font-bold font-cairo text-[16px]'>Head Office:</span>
+                                        <span className='font-normal font-cairo text-[16px]'>Mon – Thu</span>
+                                        <span className='font-normal font-cairo text-[16px]'>10:00am – 12:00am</span>
+                                        <span className='font-normal font-cairo text-[16px]'>Fri – Sun</span>
+                                        <span className='font-normal font-cairo text-[16px]'>10:00am – 12:45am</span>
                                     </li>
                                 </ul>
                             </div>
-                            <div>
-                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                            <div className='pe-8'>
+                                <h2 className="font-cairo font-bold text-[18px] mb-6 text-sm text-gray-900 uppercase dark:text-white">Follow us</h2>
                                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                     <li class="mb-4">
                                         <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Facebook</a>
@@ -34,8 +42,8 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div>
-                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                            <div className="pe-8">
+                                <h2 className="font-cairo font-bold text-[18px] mb-6 text-sm text-gray-900 uppercase dark:text-white">Legal</h2>
                                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                     <li class="mb-4">
                                         <a href="#" class="hover:underline">Privacy Policy</a>
