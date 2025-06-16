@@ -4,6 +4,7 @@ import HomePage from './components/pages/HomePage'
 import MenuPage from './components/pages/MenuPage'
 import { Routes, Route } from 'react-router-dom'
 import AboutPage from './components/pages/AboutPage'
+import ScrollToTop from './components/sections/ScrollToTop'
 
 function App() {
 
@@ -11,10 +12,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' Component= { HomePage }/>
-        <Route path='/menu' Component= { MenuPage }/>
-        <Route path='/about' Component= { AboutPage }/>
+        <Route path='/' Component={HomePage} />
+        <Route path='/menu' Component={MenuPage} />
+        <Route path='/about' Component={AboutPage} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </>
   )
