@@ -11,8 +11,8 @@ const MenuSection = () => {
             <img src="/img/menu_bg.png" alt="" srcset="" className='h-full w-full object-cover absolute -z-10 opacity-[.2] top-0 left-0 mask-y-from-70% mask-y-to-90%' />
             <div className='container mx-auto'>
                 <div className='flex flex-col items-center mb-10 lg:mb-20 xl:mb-30'>
-                    <h1 className='font-cairo text-center text-green-800 font-extrabold text-[40px] mb-5 uppercase'>Where Every Bite is a <span className='text-red-700'>Celebration!</span></h1>
-                    <span className='block font-cairo text-gray-600 text-[18px ] md:text-[20px] text-center w-[100%] xl:w-[80%] 2xl:w-[70%]'>From the delicate aroma of simmering tomatoes to the perfect twirl of al dente pasta, every bite of this authentic Italian masterpiece is a journey through centuries of tradition, passion, and pure culinary artistry.</span>
+                    <h1 className='section-header'>Where Every <span className='text-green-800'>Bite</span> is a <span className='text-red-700'>Celebration!</span></h1>
+                    <span className='block font-cairo text-gray-500 text-[18px ] md:text-[20px] text-center w-[100%] xl:w-[80%] 2xl:w-[70%]'>From the delicate aroma of simmering tomatoes to the perfect twirl of al dente pasta, every bite of this authentic Italian masterpiece is a journey through centuries of tradition, passion, and pure culinary artistry.</span>
                 </div>
 
                 <div className='px-0 md:px-10 lg:px-20 relative'>
@@ -70,7 +70,7 @@ const MenuSection = () => {
                                         <div className='flex flex-col items-center justify-center w-fit' key={menuItem.id}>
                                             <img src={menuItem.imgPath} alt="" className='w-[60%] lg:w-[80%] xl:w-[80%] mb-5' />
                                             <h4 className='font-cairo font-bold text-[24px] text-green-900'>{menuItem.dishName}</h4>
-                                            <span className='font-cairo text-[18px] text-shadow-black text-gray-600'>{menuItem.dishPrice}</span>
+                                            <span className='font-opensans text-[22px] text-shadow-black text-gray-500'>{menuItem.dishPrice}</span>
                                         </div>
                                     </SwiperSlide>
                                 )
@@ -80,8 +80,8 @@ const MenuSection = () => {
                 </div>
 
 
-                <div className='flex justify-centerborder'>
-                    <button className='mx-auto btn-default'>See our Menu</button>
+                <div className='flex justify-center'>
+                    <a href='https://order.ilforno.me/' className='mx-auto btn-default'>See our Menu</a>
                 </div>
 
             </div>

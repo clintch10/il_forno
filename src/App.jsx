@@ -2,20 +2,22 @@ import Navbar from './components/sections/Navbar'
 import Footer from './components/sections/Footer'
 import HomePage from './components/pages/HomePage'
 import MenuPage from './components/pages/MenuPage'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import AboutPage from './components/pages/AboutPage'
-import ScrollToTop from './components/sections/ScrollToTop'
+import ScrollToTop from './assets/js/ScrollToTop'
+import ContactPage from './components/pages/ContactPage'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path='/' Component={HomePage} />
-        <Route path='/menu' Component={MenuPage} />
-        <Route path='/about' Component={AboutPage} />
-      </Routes>
+        <Routes>
+          <Route path='/' Component={HomePage} />
+          <Route path='/menu' Component={MenuPage} />
+          <Route path='/about' Component={AboutPage} />
+          <Route path='/contact' Component={ContactPage} />
+        </Routes>
       <ScrollToTop />
       <Footer />
     </>
