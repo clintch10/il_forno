@@ -1,0 +1,190 @@
+{
+  "AbuDhabi": [
+    {
+      "id": 1,
+      "branch": "Abu Dhabi Mall",
+      "location": "Il Forno, Abu Dhabi Mall, 1 Abu Dhabi Mall - Al Maiyani St - Al Zahiyah - E16 01 - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 24.496889952032955,
+          "lng": 54.38429235609218
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "branch": "Al Wahda Mall",
+      "location": "Il Forno, Al Wahda Mall, Hazza ' Bin Zayed The First St 710 Al Wahda Mall - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 24.471691756765367,
+          "lng": 54.37212619665677
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "branch": "Bawabat Al Sharq Mall",
+      "location": "Il Forno, Bawabat Al Sharq Mall, Mall - 30 Al Kufouf St - Bani Yas - Bawabat Al Sharq - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 28.372879277868293,
+          "lng": 58.78492486318733
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "branch": "Al Reef Down Town",
+      "location": "Il Forno, Al Reef Downtown, Al Reef Downtown Block C4 Building 20 - Al Reef - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 24.465795579604215,
+          "lng": 54.675650791383184
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "branch": "Al Maqtaa Mall",
+      "location": "Il Forno, Al Maqtaa Mall, Rabdan - Bawabat Abu Dhabi - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 28.333395094000945,
+          "lng": 54.3273892811111
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "branch": "Khalidiyah Mall",
+      "location": "Il Forno, Khalidiyah Mall, 302/1 Khalidiyah Mall - Mubarak Bin Mohammed St - Al Khalidiyah - W9 - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 27.936180500351558,
+          "lng": 53.64623696318626
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "branch": "Airport Road Al Mushrif",
+      "location": "Il Forno, Airport Road Al Mushrif, 804 Sheikh Rashid Bin Saeed St - Al Mushrif - W24 02 - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 28.081673659701195,
+          "lng": 63.17138298270812
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "branch": "Capital Mall (MBZ City)",
+      "location": "Il Forno, Capital Mall, Capital Mall - 40 Al Barraq St - Mohamed Bin Zayed City - ME2 - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 24.380455138928234,
+          "lng": 54.53018175442894
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "branch": "Mushriff Mall",
+      "location": "Il Forno, Mushrif Mall, 207 Mushrif Mall - Ad Dhafrah St - Hadbat Al Za`Faranah - Zone 1 - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 24.435757522442415,
+          "lng": 54.414081450972205
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "branch": "Yas Mall",
+      "location": "Il Forno, Yas Mall, Al Maha St 150 YAS Mall - Abu Dhabi - United Arab Emirates",
+      "coordinates": [
+        {
+          "lat": 28.574873969422057,
+          "lng": 54.9645962865359
+        }
+      ]
+    }
+  ],
+  "Dubai": [
+    {
+      "branch": "Dubai Hills Mall",
+      "coordinates": [
+        {
+          "lat": 25.147603593157726,
+          "lng": 55.24577632139968
+        }
+      ]
+    },
+    {
+      "branch": "Al Ghurair Centre",
+      "coordinates": [
+        {
+          "lat": 28.08779134926124,
+          "lng": 55.188644676009694
+        }
+      ]
+    },
+    {
+      "branch": "Dubai Town Square",
+      "coordinates": [
+        {
+          "lat": 25.002936627856204,
+          "lng": 55.292849725139305
+        }
+      ]
+    },
+    {
+      "branch": "Dubai Festival City Mall",
+      "coordinates": [
+        {
+          "lat": 25.222203708474783,
+          "lng": 55.352899888354386
+        }
+      ]
+    },
+    {
+      "branch": "Circle Mall JVC",
+      "coordinates": [
+        {
+          "lat": 28.326939379270588,
+          "lng": 55.11666948231931
+        }
+      ]
+    },
+    {
+      "branch": "Silicon Central Mall",
+      "coordinates": [
+        {
+          "lat": 27.25438519424698,
+          "lng": 55.20088126723997
+        }
+      ]
+    }
+  ],
+  "AlAin": [
+    {
+      "branch": "Remal Mall",
+      "coordinates": [
+        {
+          "lat": "24.471691756765367",
+          "lng": "54.37212619665677"
+        }
+      ]
+    },
+    {
+      "branch": "Bawadi Mall",
+      "coordinates": [
+        {
+          "lat": "27.386914933318213",
+          "lng": "54.79734597474755"
+        }
+      ]
+    }
+  ]
+}

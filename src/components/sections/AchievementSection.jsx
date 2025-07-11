@@ -4,7 +4,7 @@ const AchievementSection = () => {
     return (
         <section className='p-20 lg:pb-30 relative'>
             <img src="/img/announcement_bg.jpg" alt="" srcset="" className='h-full w-full object-cover absolute -z-10 opacity-[.5] top-0 left-0 mask-y-from-70% mask-y-to-90%' />
-            <h3 className='text-center text-[2em] lg:text-[3em] uppercase font-bold font-cairo mb-20 text-gray-800 '>Exciting news from <span className='text-green-800'>IL</span> <span className='text-red-800'>FORNO</span></h3>
+            <h2 className='text-center text-[2em] lg:text-[3em] uppercase font-bold font-cairo mb-20 text-gray-800 '>Exciting news from <span className='text-green-800'>IL</span> <span className='text-red-800'>FORNO</span></h2>
             <div className='container px-0 mx-auto flex flex-col lg:flex-row 2xl:w-[1280px]'>
                 <div className='basis-1/3 lg:basis-2/4 flex justify-center items-center pb-5 lg:pb-0'>
                     <img src="/img/awards.png" alt="" srcset="" className='object-contain h-auto w-[50%] lg:w-[80%] xl:w-[70%]' />

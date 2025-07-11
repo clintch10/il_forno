@@ -3,7 +3,7 @@ import React from 'react'
 const AboutOtherInfo = () => {
     return (
         <section className='p-20 lg:pb-30'>
-            <h3 className='section-header'>Where every year tells a <span className="text-green-800">story</span> of <span className='text-red-800'>commitment</span>.</h3>
+            <h2 className='section-header mb-20'>Where every year tells a <span className="text-green-800">story</span> of <span className='text-red-800'>commitment</span>.</h2>
             <div className='xl:container lg:px-20 2xl:px-40 mx-auto grid grid-cols-1 lg:grid-cols-3 items-center'>
                 <div className='col-span-2 flex flex-col md:px-10 mb-20 lg:mb-0'>
                     <div className='flex flex-row items-center py-5'>

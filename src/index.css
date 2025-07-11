@@ -26,11 +26,27 @@
   }
 
   .btn-default {
-    @apply flex items-center w-fit focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-opensans rounded-full text-[18px] px-14 py-4 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 hover:cursor-pointer shadow-xl uppercase;
+    @apply flex items-center w-fit focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-opensans rounded-full text-[18px] px-14 py-4 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 hover:cursor-pointer shadow-xl uppercase font-bold;
   }
 
-  .section-header{
-    @apply font-cairo text-center text-gray-800 font-extrabold text-[40px] xl:text-[50px] mb-3 uppercase
+  .section-header {
+    @apply font-cairo text-center text-gray-800 font-extrabold text-[40px] xl:text-[50px] mb-3 uppercase;
+  }
+
+  .section-badge {
+    @apply font-cairo font-bold text-center lg:text-left text-[14px] text-gray-600 uppercase tracking-widest mb-5;
+  }
+
+  .input-label {
+    @apply font-cairo text-[14px] block mb-2 text-sm font-bold text-gray-600 dark:text-white;
+  }
+
+  .input-field {
+    @apply px-5 font-cairo bg-gray-100 border border-gray-100 text-gray-900 text-sm lg:text-[18px] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+  }
+
+  .leaflet-container {
+    @apply h-[500px] w-[100%] mx-auto;
   }
 }
 
@@ -44,5 +60,3 @@
 body {
   max-width: 100vw;
 }
-
-

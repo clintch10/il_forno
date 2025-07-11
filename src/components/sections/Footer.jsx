@@ -2,27 +2,29 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section className='px-15 pt-5 bg-gray-100'>
+        <section className='px-15 pt-10 bg-gray-100'>
             <footer class="dark:bg-gray-900">
                 <div class="mx-auto w-full max-w-screen-xl lg:py-8">
-                    <div class="md:flex md:justify-between">
-                        <div class="mb-6 md:mb-0 grow">
-                            <a href="https://flowbite.com/" class="flex items-center mb-5">
+                    <div class="flex flex-col md:flex-row md:justify-between">
+                        <div class="flex flex-row md:flex-col justify-center md:justify-start items-center md:items-start mb-10 md:mb-0 grow">
+                            <a href="https://flowbite.com/" class="flex items-center">
                                 <img src="/img/navLogo.png" class="h-15 me-3" alt="FlowBite Logo" />
                             </a>
-                            <div className='flex flex-row'>
-                                <div className="flex justify-center px-2 w-[4em]">
-                                    <svg className='text-green-800' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
-                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.6 14.521c-2.395 2.521-8.504-3.533-6.1-6.063c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.214-5.669c-1.267-.73-3.008-2.17-4.342-.767Z" />
-                                    </svg>
+                            <div className='flex flex-col'>
+                                <div className='flex flex-'>
+                                    <div className="flex justify-center px-2 w-[4em]">
+                                        <svg className='text-green-800' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.6 14.521c-2.395 2.521-8.504-3.533-6.1-6.063c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.214-5.669c-1.267-.73-3.008-2.17-4.342-.767Z" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center grow"><span className='font-cairo text-gray-500 text-[14px]'>02 658 7798</span></div>
                                 </div>
-                                <div className="flex items-center grow"><span className='font-cairo text-gray-500 text-[14px]'>02 658 7798</span></div>
-                            </div>
-                            <div className='flex flex-row'>
-                                <div className="flex justify-center p-2 w-[4em]">
-                                    <svg className='text-green-800' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.95 3.684L8.637 8.912a1 1 0 0 1-1.276 0l-6.31-5.228A.999.999 0 0 0 1 4v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a.999.999 0 0 0-.05-.316M2 2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m-.21 1l5.576 4.603a1 1 0 0 0 1.27.003L14.268 3z" /></svg>
+                                <div className='flex flex-row'>
+                                    <div className="flex justify-center p-2 w-[4em]">
+                                        <svg className='text-green-800' xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.95 3.684L8.637 8.912a1 1 0 0 1-1.276 0l-6.31-5.228A.999.999 0 0 0 1 4v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a.999.999 0 0 0-.05-.316M2 2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m-.21 1l5.576 4.603a1 1 0 0 0 1.27.003L14.268 3z" /></svg>
+                                    </div>
+                                    <div className="flex items-center grow"><span className='font-cairo text-gray-500 text-[14px]'>admin@ilfornogroup.com</span></div>
                                 </div>
-                                <div className="flex items-center grow"><span className='font-cairo text-gray-500 text-[14px]'>admin@ilfornogroup.com</span></div>
                             </div>
                         </div>
 
@@ -64,7 +66,7 @@ const Footer = () => {
                                         <div className='text-[14px] text-gray-500 font-cairo'>10:00am - 12:45am</div>
                                     </li>
                                 </ul>
-                                                                <ul>
+                                <ul>
                                     <li className='font-cairo text-[16px] font-bold text-gray-500 mb-2'>
                                         Head Office
                                     </li>
